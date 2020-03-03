@@ -331,7 +331,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Primeira Entrega na <strong>Aula 10</strong> -{" "}
+                Primeira Entrega na <strong>Aula 11</strong> -{" "}
                 <em>
                   Levantamento de Necessidades, Objetivos, Solução Proposta, Resultados Almejados e Início do Front-end
                   do Projeto (MVP)

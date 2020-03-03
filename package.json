@@ -2,7 +2,7 @@
   "name": "slides-sw-aula-01",
   "description": "Slides das Aulas de Soluções WEB do Curso de Eng. da Comp. SATC",
   "author": "Lucas Ferreira <lucas.ferreira@satc.edu.br> (http://www.satc.edu.br)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
