@@ -148,9 +148,6 @@ export default class Presentation extends React.Component {
         </Slide>
         {this.renderSlideTitulo("@lucasferreira")}
         <Slide bgImage={images.bg} bgPosition="top left">
-          <Heading size={5} fit textColor="secondary" bgColor="#E9E9E9" margin={30} padding={10}>
-            www.lucasferreira.com
-          </Heading>
           <Heading size={5} fit textColor="white" bgColor="#000000" margin={30} padding={10}>
             github.com/lucasferreira
           </Heading>
@@ -159,6 +156,9 @@ export default class Presentation extends React.Component {
           </Heading>
           <Heading size={5} fit textColor="white" bgColor="#d82b7d" margin={30} padding={10}>
             instagram.com/lucasferreira
+          </Heading>
+          <Heading size={5} fit textColor="secondary" bgColor="#E9E9E9" margin={30} padding={10}>
+            www.lucasferreira.com
           </Heading>
         </Slide>
         <Slide>
@@ -193,7 +193,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Há quase 20 anos na "indústria vital da rede mundial de computadores"
+                Há 20 anos na "indústria vital da rede mundial de computadores"
               </Text>
             </div>
           </Appear>
@@ -214,30 +214,24 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Membro da Organização do Criciúma DEV
+                Diretor de Desenvolvimento e sócio-fundador da Burn web.studio
               </Text>
             </div>
           </Appear>
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Diretor de Desenvolvimento e sócio-fundador da Burn web.studio
+                Membro da Organização do Criciúma DEV
               </Text>
             </div>
           </Appear>
-        </Slide>
-        <Slide bgColor="black">
-          <Image src={images.criciumaDEV} width={890} margin="-20px auto 30px" />
-          <HeadingTitle textColor="white" textAlign="center" size={4}>
-            Comunidade de desenvolvedores do Sul de Santa Catarina
-          </HeadingTitle>
         </Slide>
         <Slide bgImage={images.bgBurn}>
           <Appear>
             <div style={{ marginTop: "21%" }}>
               <Text textSize={30} textAlign="center" textColor="white">
-                A <strong>Burn web.studio</strong> está presente no mercado há 13 anos. É uma empresa de Comunicação
-                Interativa com foco no Desenvolvimento de Web Sites e Aplicativos, empresariais e pessoais.
+                A <strong>Burn web.studio</strong> está presente no mercado há quase 15 anos. É uma empresa de
+                Comunicação Interativa com foco no Desenvolvimento de Web Sites e Aplicativos, empresariais e pessoais.
               </Text>
             </div>
           </Appear>
@@ -297,9 +291,11 @@ export default class Presentation extends React.Component {
             <br />
             N2 (N­1) N2 (10,0)
             <br />
+            N3 - Exercícios ao longo do semestre (10,0)
+            <br />
             Projeto 3,0 + 2,0 + 5,0
             <br />
-            <strong>Média (N1 + N2 + Projeto)/3</strong>
+            <strong>Média (N1 + N2 + N3 + Projeto)/4</strong>
           </Text>
         </Slide>
         <Slide bgImage={images.bg} bgPosition="top left">
@@ -310,7 +306,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Equipes com 4 alunos <em>(e uma equipe com 5)</em>
+                Equipes com 4 alunos <em>(mas uma equipe com 3, porque estamos em 23 alunos matriculados)</em>
               </Text>
             </div>
           </Appear>
@@ -331,7 +327,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Primeira Entrega na <strong>Aula 11</strong> -{" "}
+                Primeira Entrega na <strong>Aula 10</strong> -{" "}
                 <em>
                   Levantamento de Necessidades, Objetivos, Solução Proposta, Resultados Almejados e Início do Front-end
                   do Projeto (MVP)
@@ -342,7 +338,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Última Entrega na <strong>Aula 18</strong> -{" "}
+                Última Entrega na <strong>Aula 19</strong> -{" "}
                 <em>Projeto Concluído, Front + Back-end, Funcional (Demonstração)</em>
               </Text>
             </div>
