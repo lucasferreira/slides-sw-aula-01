@@ -57,7 +57,8 @@ export default class Presentation extends React.Component {
           textFont="secondary"
           size={5}
           style={{ position: "absolute", bottom: 90, right: 50 }}
-          textColor="tertiary">
+          textColor="tertiary"
+        >
           Prof. Lucas Ferreira
         </Heading>
       </Slide>
@@ -193,7 +194,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Há 20 anos na "indústria vital da rede mundial de computadores"
+                Há mais de 20 anos na "indústria vital da rede mundial de computadores"
               </Text>
             </div>
           </Appear>
@@ -241,7 +242,8 @@ export default class Presentation extends React.Component {
                 style={{ display: "inline-block", padding: "8px 10px", borderRadius: 8 }}
                 textAlign="center"
                 textColor="default"
-                bgColor="white">
+                bgColor="white"
+              >
                 www.burnweb.com.br
               </Text>
             </div>
@@ -306,7 +308,8 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Equipes com 4 alunos <em>(mas uma equipe com 3, porque estamos em 23 alunos matriculados)</em>
+                Equipes com 5 alunos{" "}
+                <em>(mas uma ÚNICA equipe terá 4 alunos, porque estamos em 34 alunos matriculados ~ até agora)</em>
               </Text>
             </div>
           </Appear>
@@ -385,8 +388,8 @@ export default class Presentation extends React.Component {
             </Appear>
             <Appear>
               <ListItem textSize={24} margin="0 0 16px" style={{ padding: 0, listStyle: "none" }}>
-                Em dezembro de 1990, com a ajuda de Robert Cailliau e um jovem estudante do CERN, implementou a primeira
-                comunicação bem-sucedida entre um cliente HTTP e o servidor através da internet
+                Em dezembro de 1990, com a ajuda de Robert Cailliau, um jovem estudante do CERN, Tim Berners-Lee
+                implementou a primeira comunicação bem-sucedida entre um cliente HTTP e o servidor através da internet
               </ListItem>
             </Appear>
             <Appear>
@@ -472,7 +475,7 @@ export default class Presentation extends React.Component {
             <Appear>
               <ListItem textSize={21} margin="0 0 20px" style={{ padding: 0, listStyle: "none" }}>
                 Conteúdos produzido pelo próprios internautas, maior interatividade online através de Blogs e sites como
-                o Youtube, Flick, etc.
+                o Youtube, Flickr, etc.
               </ListItem>
             </Appear>
             <Appear>
@@ -488,7 +491,7 @@ export default class Presentation extends React.Component {
           <List>
             <Appear>
               <ListItem textSize={21} margin="0 0 20px" style={{ padding: 0, listStyle: "none" }}>
-                Web 3.0 (hiper-personalização, IA)
+                Web 3.0 (ou apenas Web3, hiper-personalização, IA, blockchain (eth), descentralização)
               </ListItem>
             </Appear>
             <Appear>
