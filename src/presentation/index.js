@@ -308,8 +308,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Equipes com 5 alunos{" "}
-                <em>(mas uma ÚNICA equipe terá 4 alunos, porque estamos em 34 alunos matriculados ~ até agora)</em>
+                Equipes com 5 alunos <em>(estamos em 35 alunos matriculados ~ até agora)</em>
               </Text>
             </div>
           </Appear>
