@@ -29,8 +29,8 @@ preloader(images);
 const theme = createTheme(
   {
     primary: "white",
-    secondary: "#003958",
-    tertiary: "#3787b2",
+    secondary: "#002f81",
+    tertiary: "#035bbf",
     quaternary: "#A9A9A9",
     default: "#333",
   },
@@ -51,7 +51,7 @@ export default class Presentation extends React.Component {
     return (
       <Slide bgImage={images.bgCapa}>
         <Heading margin="40px 0 0 520px" textFont="secondary" size={3} caps lineHeight={1} textColor="secondary">
-          Soluções WEB
+          Front-end
         </Heading>
         <Heading
           textFont="secondary"
@@ -90,7 +90,7 @@ export default class Presentation extends React.Component {
         {this.renderSlideCapa()}
         {this.renderSlideTitulo("Apresentação da Disciplina")}
         <Slide bgImage={images.bg} bgPosition="top left">
-          <HeadingTitle>Missão da SATC</HeadingTitle>
+          <HeadingTitle>Missão da UniSATC</HeadingTitle>
           <Text textColor="default" textAlign="left">
             Transformar pessoas e organizações, por meio da educação e de tecnologias inovadoras de qualidade,
             contribuindo para o crescimento sustentável.
@@ -99,26 +99,26 @@ export default class Presentation extends React.Component {
         <Slide bgImage={images.bg} bgPosition="top left">
           <HeadingTitle>Objetivos do Curso</HeadingTitle>
           <Text textColor="default" textAlign="left" textSize={26} style={{ lineHeight: "36px" }}>
-            Promover um ensino de qualidade, para que o Engenheiro da Computação adquira as competências técnicas,
-            cientificas e profissionais necessárias, dentre elas: sua capacidade de aprender a aprender, competências
-            interpessoais como comunicação e colaboração, e ainda, saber empreender e inovar.
+            Promover um ensino de qualidade, para que o Engenheiro de Software adquira as competências técnicas,
+            científicas e profissionais necessárias, dentre elas: sua capacidade de aprender a aprender, competências
+            interpessoais como comunicação e colaboração, e ainda, saber empreender e inovar.
           </Text>
         </Slide>
         <Slide bgImage={images.bg} bgPosition="top left">
           <HeadingTitle>Ementa</HeadingTitle>
           <Text textColor="default" textAlign="left" textSize={26} style={{ lineHeight: "36px" }}>
-            Conceitos sobre aplicações Web. Desenvolvimento de aplicações Web. Desenvolvimento de interfaces de usuários
-            utilizando programação orientada a objetos. Estudo e implementação de novas tecnologias de WEB.
+            Conceitos sobre aplicações Web (front-end). Desenvolvimento de aplicações Web. Desenvolvimento de interfaces
+            de usuários utilizando programação orientada a objetos. Estudo e implementação de novas tecnologias de WEB.
           </Text>
         </Slide>
         <Slide bgImage={images.bg} bgPosition="top left">
           <HeadingTitle>Objetivos de Aprendizagem</HeadingTitle>
           <Text textColor="default" textAlign="left" textSize={26} style={{ lineHeight: "36px" }}>
-            Objetiva-se que o acadêmico ao final desta disciplina seja capaz de compreender conceitos fundamentais para
-            o desenvolvimento de aplicações web baseadas em padrões dinâmicos. Delinear, especificar e projetar
+            Objetiva-se que o acadêmico ao final desta disciplina seja capaz de compreender conceitos fundamentais para
+            o desenvolvimento de aplicações web baseadas em padrões dinâmicos. Delinear, especificar e projetar
             necessidades acerca das tecnologias mais adequadas para cada projeto e suas respectivas finalidades.
-            Desenvolver e otimizar aplicações interativas por meio de ferramentas e linguagens ricas focadas na
-            experiência do usuário através das camadas front e backend.
+            Desenvolver e otimizar aplicações interativas por meio de ferramentas e linguagens ricas focadas na
+            experiência do usuário através da camada vinculada front-end da aplicação/site.
           </Text>
         </Slide>
         <Slide bgImage={images.bg} bgPosition="top left">
@@ -142,7 +142,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textSize={24} textAlign="left" textColor="default">
-                Exercícios práticos em sala ou para fazer em casa com postagem no ambiente virtual da Faculdade SATC
+                Exercícios práticos em sala ou para fazer em casa com postagem no ambiente virtual da UniSATC
               </Text>
             </div>
           </Appear>
@@ -231,7 +231,7 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginTop: "21%" }}>
               <Text textSize={30} textAlign="center" textColor="white">
-                A <strong>Burn web.studio</strong> está presente no mercado há quase 15 anos. É uma empresa de
+                A <strong>Burn web.studio</strong> está presente no mercado há mais de 15 anos. É uma empresa de
                 Comunicação Interativa com foco no Desenvolvimento de Web Sites e Aplicativos, empresariais e pessoais.
               </Text>
             </div>
@@ -261,11 +261,12 @@ export default class Presentation extends React.Component {
           showLineNumbers={false}
           code={require("!raw-loader!../assets/conteudoProgramatico.example")}
           ranges={[
-            { loc: [0, 20] },
+            { loc: [0, 21] },
             { loc: [0, 1] },
             { loc: [1, 2] },
             { loc: [2, 3] },
             { loc: [3, 4] },
+            { loc: [4, 5] },
             { loc: [5, 6] },
             { loc: [6, 7] },
             { loc: [7, 8] },
@@ -281,7 +282,8 @@ export default class Presentation extends React.Component {
             { loc: [17, 18] },
             { loc: [18, 19] },
             { loc: [19, 20] },
-            { loc: [0, 20] },
+            { loc: [20, 21] },
+            { loc: [0, 21] },
           ]}
         />
         <Slide bgImage={images.bg} bgPosition="top left">
@@ -289,9 +291,9 @@ export default class Presentation extends React.Component {
           <Text textColor="default" textAlign="left" textSize={26} style={{ lineHeight: "36px" }}>
             Avaliações
             <br />
-            N1 (N­1) N1 (10,0)
+            N1 (N-1) N1 (10,0)
             <br />
-            N2 (N­1) N2 (10,0)
+            N2 (N-1) N2 (10,0)
             <br />
             N3 - Exercícios ao longo do semestre (10,0)
             <br />
@@ -308,14 +310,15 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Equipes com 5 alunos <em>(estamos em 35 alunos matriculados ~ até agora)</em>
+                Equipes com + ou - 5 alunos <em>(temos que aguardar as definições de matrícula)</em>
               </Text>
             </div>
           </Appear>
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Temas de cunho relevante, visando utilização real e de preferência com impacto social
+                Temas de cunho relevante, visando utilização no mundo real e sem ter cara de{" "}
+                <em>"tutorial da Rocketseat"</em>
               </Text>
             </div>
           </Appear>
@@ -340,8 +343,8 @@ export default class Presentation extends React.Component {
           <Appear>
             <div style={{ marginBottom: 28 }}>
               <Text textAlign="left" textColor="default">
-                Última Entrega na <strong>Aula 19</strong> -{" "}
-                <em>Projeto Concluído, Front + Back-end, Funcional (Demonstração)</em>
+                Última Entrega na <strong>penúltima aula</strong> <em>(antes da N-1)</em> -{" "}
+                <em>Projeto Concluído e 100% Funcional (Demonstração)</em>
               </Text>
             </div>
           </Appear>
@@ -410,7 +413,9 @@ export default class Presentation extends React.Component {
             The Project
           </HeadingTitle>
           <Text textAlign="center" textSize={21} margin="0 auto 36px">
-            http://info.cern.ch/hypertext/WWW/TheProject.html
+            <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener noreferrer">
+              http://info.cern.ch/hypertext/WWW/TheProject.html
+            </a>
           </Text>
           <Image src={require("../assets/sites/theproject.png")} width={600} margin="60px auto 0" />
         </Slide>

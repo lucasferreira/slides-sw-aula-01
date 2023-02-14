@@ -1,20 +1,21 @@
 Aula 01 - Plano de Ensino, apresentação do professor e da turma, breve histórico da internet, Web 2.0 e futuro
-Aula 02 - Fundamentos da Web, Protocolos e Introdução ao REST => (REMOTA 1)
-Aula 03 - Front-end: HTML e CSS
-Aula 04 - Front-end: Javascript, DOM e AJAX - Parte I => (REMOTA 2)
-Aula 05 - Front-end: Javascript, DOM e AJAX - Parte II
-Aula 06 - Introdução ao Node.js, ferramentas de dev. e Github => (REMOTA 3)
-Aula 07 - Frameworks de Interação - React
-Aula 08 - Frameworks de Interação - Angular
-Aula 09 - Frameworks de Interação - Vue.js
-Aula 10 - ABP - Apresentação Projeto - Parte 1
-Aula 11 - N1 - Fundamentos da Web e Front-end
-Aula 12 - Servidores HTTP (Apache e NGINX) => (REMOTA 4)
-Aula 13 - Back-end para Web: Introdução ao PHP => (REMOTA 5)
-Aula 14 - Back-end para Web: Frameworks de PHP - Parte I
-Aula 15 - Back-end para Web: Frameworks de PHP - Parte II
-Aula 16 - Back-end para Web: Webservices (REST) com PHP => (REMOTA 6)
-Aula 17 - Produção Supervisionada - ABP => (Remota Opcional)
-Aula 18 - N2 - Servidores HTTP e Back-end
-Aula 19 - ABP - Apresentação e Entrega Final Projeto - Parte 2
-Aula 20 - Avaliação N-1 (05/07)
+Aula 02 - Carnaval (Feriado)
+Aula 03 - Fundamentos da Web, Introdução ao Front-end: HTML e CSS *
+Aula 04 - Front-end: Javascript, DOM e AJAX - Parte I
+Aula 05 - Front-end: Javascript, DOM e AJAX - Parte II *
+Aula 06 - Introdução ao Node.js + NPM, ferramentas de desenvolvimento e Git + Github (básico)
+Aula 07 - Frameworks de Interação - Angular
+Aula 08 - Frameworks de Interação - Vue.js
+Aula 09 - Frameworks de Interação - Introdução ao React.js *
+Aula 10 - ABP - Apresentação Projeto - Parte 1
+Aula 11 - N1 - Fundamentos da Web e Front-end Básico
+Aula 12 - React.js: "Componentização", Gerenciamento de Estado, Hooks e Context API - Parte I
+Aula 13 - React.js: "Componentização", Gerenciamento de Estado, Hooks e Context API - Parte II
+Aula 14 - Facilitadores para React.js: CRA + React Router
+Aula 15 - Facilitadores para React.js: Next.js & Remix.run *
+Aula 16 - Formulários em React.js e outras idéias
+Aula 17 - "Conectando" o React.js (Front-end) com o Back-end (Consumo de APIs REST) *
+Aula 18 - N2 - Front-end Avançado: React.js
+Aula 19 - Produção Supervisionada - ABP
+Aula 20 - ABP - Apresentação e Entrega Final Projeto - Parte 2
+Aula 21 - Avaliação N-1 (04/07)

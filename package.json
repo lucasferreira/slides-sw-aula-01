@@ -1,8 +1,8 @@
 {
-  "name": "slides-sw-aula-01",
-  "description": "Slides das Aulas de Soluções WEB do Curso de Eng. da Comp. SATC",
+  "name": "slides-front-end-aula-01",
+  "description": "Slides das Aulas de Front-end do Curso de Eng. da Software UniSATC",
   "author": "Lucas Ferreira <lucas.ferreira@satc.edu.br> (http://www.satc.edu.br)",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "upd": "yarn upgrade-interactive --latest"
   },
   "eslintConfig": {
     "extends": "react-app"
