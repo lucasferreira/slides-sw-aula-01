@@ -27,3 +27,5 @@ yarn start
 ```
 
 Pronto! Os slides estarão rodando no servidor local, acessíveis através do endereço: http://localhost:3000
+
+Aqui nós alteramos ele e depois mandamos pro GITHUB.
