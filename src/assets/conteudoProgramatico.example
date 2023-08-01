@@ -1,21 +1,20 @@
-Aula 01 - Plano de Ensino, apresentação do professor e da turma, breve histórico da internet, Web 2.0 e futuro
-Aula 02 - Fundamentos da Web, Introdução ao Front-end: HTML e CSS
-Aula 03 - Front-end: Javascript, DOM e AJAX - Parte I
-Aula 04 - Front-end: Javascript, DOM e AJAX - Parte II
-Aula 05 - Introdução ao Node.js + NPM, ferramentas de desenvolvimento e Git + Github (básico)
-Aula 06 - Frameworks de Interação - Angular
-Aula 07 - Frameworks de Interação - Vue.js
-Aula 08 - Recesso Feriado Paixão de Cristo
-Aula 09 - Frameworks de Interação - Introdução ao React.js
-Aula 10 - ABP - Apresentação Projeto - Parte 1
-Aula 11 - N1 - Fundamentos da Web e Front-end Básico
-Aula 12 - React.js: "Componentização", Gerenciamento de Estado, Hooks e Context API - Parte I
-Aula 13 - React.js: "Componentização", Gerenciamento de Estado, Hooks e Context API - Parte II
-Aula 14 - Facilitadores para React.js: CRA + React Router
-Aula 15 - Facilitadores para React.js: Next.js & Remix.run
-Aula 16 - Formulários em React.js e outras idéias
-Aula 17 - Feriado Corpus Christi
-Aula 18 - "Conectando" o React.js (Front-end) com o Back-end (Consumo de APIs REST)
-Aula 19 - N2 - Front-end Avançado: React.js
-Aula 20 - ABP - Apresentação e Entrega Final Projeto - Parte 2
-Aula 21 - Avaliação N-1 (06/07)
+Aula 01	- Plano de Ensino, apresentação do professor e da turma, breve histórico da internet, Web 2.0 e futuro
+Aula 02	- Fundamentos da Web, Introdução ao Front-end: HTML e CSS
+Aula 03	- Front-end: Javascript, DOM e AJAX - Parte I
+Aula 04	- Front-end: Javascript, DOM e AJAX - Parte II
+Aula 05	- Introdução ao Node.js + NPM, ferramentas de desenvolvimento e Git + Github (básico) - Parte I
+Aula 06	- Introdução ao Node.js + NPM, ferramentas de desenvolvimento e Git + Github (básico) - Parte II
+Aula 07	- Frameworks de Interação - Angular
+Aula 08	- Frameworks de Interação - Vue.js
+Aula 09	- Frameworks de Interação - React.js
+Aula 10	- N1 - Fundamentos da Web e Front-end Básico
+Aula 11	- ABP - Produção e Detalhamento do Projeto (primeira entrega)
+Aula 12	- React.js: "Componentização" e Introdução aos Hooks
+Aula 13	- Arena SETE
+Aula 14	- React.js: HOOKs e Context API
+Aula 15	- React.js: Roteamento entre Telas com React Router
+Aula 16	- React.js: Comunicação on-line e Introdução aos Frameworks React.js
+Aula 17	- Conhecendo o Next.js
+Aula 18	- N2 - Front-end Avançado: React.js
+Aula 19	- ABP - Apresentação e Entrega Final Projeto - Parte 2
+Aula 20	- Avaliação N-1
